@@ -1,0 +1,4 @@
+System.out.println();  //prints new line
+        System.out.print(); //no new line
+        System.out.printf();
+        System.out.format();

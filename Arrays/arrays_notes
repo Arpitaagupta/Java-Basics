@@ -1,0 +1,38 @@
+                                        ARRAYS
+An array is collection of similar types of data having contingous memory allocation.
+        Java has no concept of pointers.
+
+        --> Indexing of arrays starts from zero i.e. first element will be stored at zeroth index, second
+        element at first index, third element at second index and so on.
+
+--> The size of an array cannot be increased at runtime, therefore we can store only a fixed size
+       of element in arrays.
+
+       ACCESSING ARRAY ELEMENTS:
+       -->Arrays are immutable i.e. you cannot change the size of the array.
+       -->Data cannot be altered individually.
+
+       USE CASE : --> Storing marks of 5 students.
+       int [] Marks = New int[5]
+
+      1. int [] Marks --> Declaration
+            int --> type of data that will be stored in array
+            Marks --> Reference
+            new --> object
+            int[5] --> data type
+        Marks = New int[5]   --> Memory Allocation
+
+      2. int [] Marks = New int[5] -->  Declaration + Memory Allocation
+
+      3. int [] Marks = {1,2,3,4,5..} -->Declaration
+                                      -->Memory Allocation
+                                      -->Initialization
+
+
+        --> Size of array = number of enteries
+        -->By default the size of array will be equal to the number of entries given as input.
+
+        function --> block of code that contain algorithm expression.
+
+        -->Arrays cannot be printed directly, because it encodes value.
+        -->Arrays can be printed using loops.

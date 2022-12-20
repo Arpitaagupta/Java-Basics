@@ -1,0 +1,18 @@
+Operator Precedence
+Operators are evaluated based on precedence.
+* , / , %                   x = 4 + 9 * 10
+
+
+ +, -                         x = 4 * 3/ 6 * 2
+
+
+  =
+
+
+
+
+Associativity :
+(for same precedence)
+	Tells us the direction of execution of operators.
+/ *  L to R
++ -  L to R

@@ -1,0 +1,34 @@
+Sometimes our programs grow in size and we wish to keep our logic clean by not mentioning the code in our main function,
+in this case we use methods.
+
+-->A method is a function written inside a class. Since Java is an Object Oriented Language or OOP we need
+    to write method inside class.
+
+--> Method and function are used interchangeably in industries.
+
+-->Arguments are real.
+-->Parameters are variable.
+
+* Calling a method
+-->Instance of class is called as object.
+-->A method can be called by creating an object of class in which the method exists folllowed by
+    method call.
+
+* Method Overloading
+-->In Java a class can have same method name with different parameters.
+Readablity of program -->
+
+#Note :
+Method overloading cannot be performed by changing the user type of method.
+
+* For a method to get overloaded.
+1. Function name should be same.
+2. Return type should be same.
+3. Parameters should be different.
+
+* Ways of Method Overloading :
+1. By changing the return type.
+2. In this we have create a class calculate.
+3. In the class calculate we have two methods with the same name multipy.
+4. The two methods are overloaded because they have the same name but return type is different.
+5. The return type of the first method is int while the return type of other method is double.
